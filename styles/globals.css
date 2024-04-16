@@ -18,5 +18,17 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-color: #2a2626;
+}
+.Txt {
+  color: #e9e9e9ca;
+}
+
+.sign-out{
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 600px;
+}
+.homeButton {
+  position: relative; down:80px;
 }

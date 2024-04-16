@@ -17,13 +17,12 @@ function Signin() {
         paddingBlock: '0 5rem',
       }}
     >
-      <h1>Hi there!</h1>
-      <p>Click the button below to login!</p>
+      <h1 className="Txt">Welcome!</h1>
       <Button type="button" size="lg" className="copy-btn" onClick={signIn}>
         Sign In
       </Button>
     </div>
   );
 }
-
+// onClick={signIn}
 export default Signin;
